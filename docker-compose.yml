@@ -1,0 +1,11 @@
+app:
+  image: itzg/minecraft-server
+  restart: always
+  ports:
+   - 7134:25565
+  volumes:
+   - data:/data
+  environment:
+   - VIRTUAL_HOST=mc.misterbanal.net
+   - VERSION=1.7.10
+   - EULA=TRUE
