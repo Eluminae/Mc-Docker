@@ -7,5 +7,6 @@ app:
    - data:/data
   environment:
    - VIRTUAL_HOST=mc.misterbanal.net
+   - VIRTUAL_PORT=7134
    - VERSION=1.7.10
    - EULA=TRUE
